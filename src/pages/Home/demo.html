@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // 作用域
+      // var tmp = new Date();
+      // function fn() {
+      //   if (true) {
+      //     var tmp = "hello world";
+      //   }
+      //   console.log(tmp);
+      // }
+      // console.log(tmp);
+      // fn();
+      // console.log(tmp);
+      // 交量变换
+      // let x = { a: 1 };
+      // let y = { b: 2 };
+      // [x, y] = [y, x];
+      // console.log(x, y);
+      // let name = "韩梅梅"
+      // const obj2 = {
+      //   name,
+      //   f() {
+      //     console.log(this.name);
+      //   },
+      // };[1, 2, [3, [4, 5]]].flat()
+      // obj2.f();
+      // console.log([1, 2, NaN].includes(NaN)) // true
+      // console.log(["1", 2, NaN].includes(1)) // false
+      // console.log("1,3,4".includes(1)) // true
+      // console.log("1,3,4".includes("1")) // true
+
+      console.log([{a:1,b:5},{c:6,d:{e:7,f:8}}].flat())
+
+      // [0, 1, 2, 3, 4].reduce(function (
+      //   accumulator,
+      //   currentValue,
+      //   currentIndex,
+      //   array
+      // ) {
+      //   console.log( accumulator,
+      //   currentValue,
+      //   currentIndex,
+      //   array)
+      //   return accumulator + currentValue;
+      // });
+    </script>
+  </body>
+</html>
